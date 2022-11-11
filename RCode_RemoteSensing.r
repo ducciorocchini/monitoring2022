@@ -21,8 +21,6 @@ dev.off()
 
 
 
-> par(mfrow=c(1,2))
-> plot(p224r63_2011$B1_sre[[1]], col=cl)
-> plot(p224r63_2011$B1_sre[[2]], col=cl)
-Error in h(simpleError(msg, call)) : 
-  error in evaluating the argument 'x' in selecting a method for function 'plot': not a valid subset
+par(mfrow=c(1,2))
+plot(p224r63_2011[[1]], col=cl)
+plot(p224r63_2011[[2]], col=cl)
